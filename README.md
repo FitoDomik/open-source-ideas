@@ -12,6 +12,12 @@
 **[🚀 Демо](https://farm429.ru)** • **[📖 Документация](#-возможности)** • **[⚡ Установка](#-установка)**
 
 ---
+<p align="center">
+  <a href="https://farm429.ru/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/open--source--ideas-Visit%20farm429.ru-blue?style=for-the-badge&logo=github" alt="open-source-ideas" />
+  </a>
+</p>
+
 
 </div>
 
@@ -456,5 +462,6 @@ fetch('ajax_subscribe.php', {
 
 
 [![Visitors](https://img.shields.io/badge/visitors-welcome-brightgreen?style=for-the-badge)](https://farm429.ru)
+
 
 </div>
