@@ -1,0 +1,46 @@
+# Robots.txt для Платформы идей
+# Платформа для open source проектов и стартап идей
+User-agent: *
+Allow: /
+Disallow: /admin.php
+Disallow: /config.php
+Disallow: /upload/
+Disallow: /*.sql$
+Disallow: /database.sql
+Disallow: /includes_head.php
+Disallow: /sitemap_generator.php
+# Приоритетные страницы для индексации
+Allow: /index.php
+Allow: /hall_of_fame.php
+Allow: /register.php
+Allow: /idea.php
+# Защита от архивирования (опционально)
+# Раскомментируйте, если не хотите архивирования
+# User-agent: ia_archiver
+# Disallow: /
+# Карта сайта
+Sitemap: https://farm429.ru/sitemap.xml
+# Основные поисковые боты
+User-agent: Googlebot
+Allow: /
+Disallow: /admin.php
+Disallow: /upload/
+User-agent: Yandex
+Allow: /
+Disallow: /admin.php
+Disallow: /upload/
+User-agent: Bingbot
+Allow: /
+Disallow: /admin.php
+Disallow: /upload/
+# Блокировка плохих ботов
+User-agent: AhrefsBot
+Disallow: /
+User-agent: SemrushBot
+Disallow: /
+User-agent: MJ12bot
+Disallow: /
+User-agent: dotbot
+Disallow: /
+# Crawl-delay для вежливых ботов
+Crawl-delay: 1

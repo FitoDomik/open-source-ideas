@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Платформа идей",
+  "alternateName": "Open Source Ideas Platform",
+  "url": "https://yourdomain.ru",
+  "description": "Платформа для обмена идеями между разработчиками. Open source проекты, стартап идеи, совместная разработка и инновации.",
+  "keywords": "идеи для разработки, open source, стартап идеи, программирование, совместная работа, сообщество разработчиков, инновации, хакатон, open source проекты",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://yourdomain.ru/search.php?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "Платформа идей",
+    "url": "https://yourdomain.ru"
+  },
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Разработчики, стартапы, IT-специалисты"
+  },
+  "inLanguage": "ru-RU",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Платформа идей",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://yourdomain.ru/favicons/android-chrome-512x512.png",
+      "width": 512,
+      "height": 512
+    }
+  },
+  "mainEntity": {
+    "@type": "WebPage",
+    "@id": "https://yourdomain.ru/#webpage",
+    "name": "Главная страница",
+    "description": "Открытые проекты, стартап идеи и сообщество разработчиков"
+  },
+  "sameAs": [
+    "https://github.com/yourusername",
+    "https://twitter.com/yourplatform"
+  ]
+}
